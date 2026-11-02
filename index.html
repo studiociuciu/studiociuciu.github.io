@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>studio ciuciu</title>
+<meta name="description" content="studio ciuciu - giochi per Android">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --sfondo:#e9d9bf; --tessera:#fbf6ec; --bordo:#d9c7a6; --blu:#1f5a6b; --arancio:#c95a2c; --testo:#4a3a2a; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:'Fredoka', system-ui, sans-serif; background:var(--sfondo); color:var(--testo);
+         min-height:100vh; display:flex; flex-direction:column; align-items:center; padding:48px 16px; }
+  .logo { display:flex; gap:10px; margin-bottom:14px; }
+  .t { width:64px; height:64px; background:var(--tessera); border-radius:14px; display:flex; align-items:center;
+       justify-content:center; font-size:38px; font-weight:600; box-shadow:0 4px 0 var(--bordo), 0 8px 14px rgba(0,0,0,.12); }
+  .t.b { color:var(--blu); } .t.a { color:var(--arancio); }
+  h1 { font-size:34px; font-weight:600; margin-bottom:6px; }
+  .sotto { opacity:.75; margin-bottom:40px; }
+  .gioco { background:var(--tessera); border-radius:20px; padding:24px; max-width:420px; width:100%;
+           box-shadow:0 6px 0 var(--bordo), 0 12px 24px rgba(0,0,0,.10); text-align:center; }
+  .gioco h2 { font-size:26px; color:var(--blu); margin-bottom:8px; }
+  .gioco p { margin-bottom:18px; line-height:1.4; }
+  .btn { display:inline-block; background:var(--arancio); color:#fff; text-decoration:none; padding:12px 22px;
+         border-radius:12px; font-weight:600; box-shadow:0 4px 0 #9c4220; }
+  footer { margin-top:48px; font-size:14px; opacity:.7; text-align:center; }
+  footer a { color:var(--testo); }
+</style>
+</head>
+<body>
+  <div class="logo"><div class="t b">C</div><div class="t a">C</div></div>
+  <h1>studio ciuciu</h1>
+  <p class="sotto">Piccoli giochi per Android</p>
+
+  <div class="gioco">
+    <h2>Letterissima</h2>
+    <p>Il gioco di parole italiano: unisci le lettere uguali, forma parole da 3 e 4 lettere e batti il tuo record!</p>
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.studiociuciu.letterissima">Scarica su Google Play</a>
+  </div>
+
+  <footer>
+    Contatti: <a href="mailto:studiociuciu@proton.me">studiociuciu@proton.me</a><br>
+    &copy; 2026 studio ciuciu
+  </footer>
+</body>
+</html>
